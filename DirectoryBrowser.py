@@ -40,9 +40,9 @@ class DirectoryBrowser(QWidget):
         self.tree_view.setRootIndex(self.tree_model.index(initial_path))
         # Hide non-essential columns.
         self.tree_view.setHeaderHidden(True)
-        #self.tree_view.hideColumn(1)
-        #self.tree_view.hideColumn(2)
-        #self.tree_view.hideColumn(3)
+        self.tree_view.hideColumn(1)
+        self.tree_view.hideColumn(2)
+        self.tree_view.hideColumn(3)
 
         # Set up the file list view.
         self.list_view = QListView(splitter)

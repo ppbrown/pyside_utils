@@ -1,3 +1,6 @@
+
+# This exists solely to demo the DirectoryBrowser class
+
 import sys
 import os
 from PySide6.QtWidgets import (
